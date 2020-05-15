@@ -2,21 +2,16 @@
 # **Real-time GoPro image template matching**
 Computer vision python program performing two tasks: the first is a training mode where
 the program tries to collect template images from the homonym folder, the second is,
-thanks to
+thanks to opencv, numpy and requests, therefore
 
 
 ## USAGE:
 <center>*make sure your device is connected to the GoPro own wifi*</center>
 
 ### Config:
-in the highlighted section within the code
-
-
-`image = image[ [R]from-y : [R]to-y , [R]from-x : [R]to-x ]`
-
-replace all the parts with [R] with values of the rectangle around the
-page number as in the example in this folder "example.pdf"
-
+It is highly suggested to setup a virtual environment with `$> python3 -m venv myEnv`
+in the folder where you want this ~~venv~~ to live, I keep them in a folder in the user
+home directory and refer to them with **$HOME/..**   
 ### Train the code:
 		open terminal application
 		type "$> python3 encode.py"
