@@ -18,20 +18,22 @@ project name in _.bashrc_aliases_.
 ### Train the code:
 open terminal application
 		`$> python3 encode.py`
-		`$> select mode: [sampler, play]`
+		`$> select mode: sampler`
 		`$> insert photo root...`
 it should be standard to 10.5.5.9:8080 so then you only have to point to a
 folder, for me it is `/videos/DCIM/105GOPRO/`, mind that the camera firmware updates
 might change this address.
 
 once the code is running you can take as many picture
-as you need and you will see new files being created in the
+as you need and you will see, each within 10 seconds new files being created in the
 'template' folder. Try to find a location at least similar to the one you will deploy at, in order to avoid all the risks that lights and shadows bring about.
+**feature missing**
+the possibility to pick the timeout to terminate _training_
 
 ### Play the code:
-open terminal application \n
-type `$> python encode.py` \n
-in "select mode:" type "play" \n
+open terminal application
+		`$> python encode.py`
+		`$> select mode: play"`
 This tool saves the kernels in lighter format and different resolution for memory sake, it also download each photo only once before deleting it.
 **feature missing**
 the possibility to save files locally
