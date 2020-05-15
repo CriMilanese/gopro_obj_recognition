@@ -1,17 +1,22 @@
 ﻿
 # **Real-time GoPro image template matching**
 Computer vision python program performing two tasks: the first is a training mode where
-the program tries to collect template images from the homonym folder, the second is,
-thanks to opencv, numpy and requests, therefore
-
-
-## USAGE:
-<center>*make sure your device is connected to the GoPro own wifi*</center>
+the program tries to collect template images from the homonym folder, while the latter is,
+thanks to opencv, numpy and requests, making them dependencies, computing a 2D convolution
+over all the image for different scales, this is technically called our _kernel_. once found the program limitates itself to creating a file showing off its computed rectangle around
+the object
 
 ### Config:
 It is highly suggested to setup a virtual environment with `$> python3 -m venv myEnv`
-in the folder where you want this ~~venv~~ to live, I keep them in a folder in the user
-home directory and refer to them with **$HOME/..**   
+in the folder where you want this _venv_ to live, I keep them in a folder in the user
+home directory and refer to them with **$HOME/..**.
+I find useful having an **activate** alias pointing at the correct binary given the
+project name in _.bashrc_aliases_.
+
+## Usage:
+<center>**make sure your device is connected to the GoPro own wifi**</center>
+<center>I experienced unstable connection that would suddently quit</center>
+
 ### Train the code:
 		open terminal application
 		type "$> python3 encode.py"
@@ -22,9 +27,9 @@ home directory and refer to them with **$HOME/..**
 	as you need and you will see new files being created in the
 	'template' folder
 
-	PLAY THE CODE:
-		open terminal application
-		type "python encode.py"
-		in "select mode:" type "play"
+### Play the code:
+open terminal application
+type `$> python encode.py`
+in "select mode:" type "play"
 
 ##### I read post regarding this technique not working on HERO 7, please let me through the proposed "issues" section
