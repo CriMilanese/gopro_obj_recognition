@@ -130,7 +130,7 @@ while True:
         if case == "sampler":
             Sampler()
         elif case == "play":
-            photo_folder = raw_input("insert address of folder containing photo: http://10.5.5.9:8080/")
+            photo_folder = raw_input("insert address of web folder containing photos: http://10.5.5.9:8080/")
             Play(photo_folder)
         else:
             print(" argument not valid")

@@ -16,9 +16,9 @@ project name in _.bashrc_aliases_.
 <center>I experienced unstable connection that would suddently quit</center>
 
 ### Train the code:
-		open terminal application
+open terminal application
 		`$> python3 encode.py`
-		`$> select mode:" type "sampler"`
+		`$> select mode: [sampler, play]`
 		`$> insert photo root...`
 it should be standard to 10.5.5.9:8080 so then you only have to point to a
 folder, for me it is `/videos/DCIM/105GOPRO/`, mind that the camera firmware updates
