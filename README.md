@@ -18,9 +18,9 @@ project name in _.bashrc_aliases_.
 ### Train the code:
 open terminal application
 
-		`$> python3 encode.py`
-		`$> select mode: sampler`
-		`$> insert photo root...`
+		$> python3 encode.py
+		$> select mode: sampler
+		$> insert photos address..
 
 it should be standard to 10.5.5.9:8080 so then you only have to point to a
 folder, for me it is `/videos/DCIM/105GOPRO/`, mind that the camera firmware updates
@@ -35,8 +35,9 @@ the possibility to pick the timeout to terminate _training_
 ### Play the code:
 open terminal application
 
-		`$> python encode.py`
-		`$> select mode: play`
+		$> python encode.py
+		$> select mode: play
+		$> select photos address..
 
 This tool saves the kernels in lighter format and different resolution for memory sake, it also download each photo only once before deleting it.
 **feature missing**
