@@ -4,7 +4,7 @@ Computer vision python program performing two tasks: the first is a training mod
 the program tries to collect template images from the homonym folder, while the latter is,
 thanks to **opencv**, **numpy** and **requests**, making them dependencies, computing a 2D convolution over all the image for different scales, this is technically called our _kernel_. once found the program limitates itself to creating a file showing off its computed rectangle around the object.
 
-### Config:
+## Config:
 It is highly suggested to setup a virtual environment with `$> python3 -m venv myEnv`
 in the folder where you want this _venv_ to live, I keep them in a folder in the user
 home directory and refer to them with **$HOME/..**.
@@ -45,3 +45,8 @@ the possibility to save files locally
 
 
 ##### I read post regarding this technique not working on HERO 7, please let me through the proposed "issues" section
+
+### credits
+A thankful smile to _Rietvield Academy_ in Amsterdam who hosted me for weeks, helping an
+**excellent fine art student**, shaping her ideas with software. Too bad the _Stedelijk_
+museum gave so many problems regarding the few devices allowed to use the day of _Rietvield_ exhibition.
