@@ -18,14 +18,14 @@ project name in _.bashrc_aliases_.
 <center>I experienced unstable connection that would suddently quit</center>
 
 ### Train the code:
-		open terminal application
-		type "$> python3 encode.py"
-		in "$> select mode:" type "sampler"
-		in "$> insert photo root" type ""
+open terminal application
+type "$> python3 encode.py"
+in "$> select mode:" type "sampler"
+in "$> insert photo root" type ""
 
-	once the code is running you can take as many picture
-	as you need and you will see new files being created in the
-	'template' folder
+once the code is running you can take as many picture
+as you need and you will see new files being created in the
+'template' folder
 
 ### Play the code:
 open terminal application
