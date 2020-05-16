@@ -49,4 +49,4 @@ the possibility to save files locally
 ### credits
 A thankful smile to _Rietvield Academy_ in Amsterdam who hosted me for weeks, helping an
 **excellent fine art student**, shaping her ideas with software. Too bad the _Stedelijk_
-museum gave so many problems regarding the few devices allowed to use the day of _Rietvield_ exhibition.
+museum gave so many problems, regarding the few devices allowed to use, the day of _Rietvield_ exhibition.
